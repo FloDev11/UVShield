@@ -1,0 +1,152 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+#container_form {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    padding: 5%;
+    border-radius: 50px;
+    background-color: #F9DC30C0;
+    width: 40%;
+    height: 600px;
+}
+
+
+
+label {
+    width: 50%;
+    font-size: 20px;
+}
+
+#Nom {
+    width: 50%;
+    border-radius: 30px;
+    border: none;
+    height: 5%;
+    padding: 2%;
+    margin: 2%;
+    margin-bottom: 4%;
+}
+
+#Prenom {
+    width: 50%;
+    border-radius: 30px;
+    border: none;
+    height: 5%;
+    padding: 2%;
+    margin: 2%;
+    margin-bottom: 4%;
+}
+
+#Mail {
+    width: 50%;
+    border-radius: 30px;
+    border: none;
+    height: 5%;
+    padding: 2%;
+    margin: 2%;
+    margin-bottom: 4%;
+}
+
+#Message {
+    width: 50%;
+    border-radius: 30px;
+    border: none;
+    padding: 2%;
+    margin: 2%;
+    margin-bottom: 4%;
+}
+
+#btn_envoie {
+    width: 20%;
+    border-radius: 30px;
+    border: none;
+    padding: 3%;
+    margin: 2%;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert {
+
+  
+  margin-top: 30px;
+ 
+  
+  padding: 2%;
+  border: 1px solid ;
+  border-radius: 30px;
+  width: 40%;
+}
+
+.alert-erreur {
+    background-color: rgba(255,0,0,0.2) ;
+    
+    color: red;
+    border-color: red;
+}
+
+.alert-succes {
+    background-color:  rgba(0,255,0,0.2) ;
+    color: green;
+    border-color: green;
+}
+
+
+
+
+#body_contact {
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+    height: 2600px;
+    max-width: 100%;
+}
+
+
+#logo_tournant_contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+#logo_tournant_contact img {
+    width: 50%;
+    position: absolute;
+    top: 2235px;
+    z-index: -1;
+    overflow: hidden;
+}
+
+#footer_contact {
+    background-color: #006992;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 400px;
+    color: white;
+    position: absolute;
+    width: 100%;
+    top: 2600px;
+}
